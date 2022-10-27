@@ -1,0 +1,5 @@
+<launch>
+    <node name="simple_motion" pkg="simple_motion" type="simple_motion" output="screen">
+    </node>
+    <param name="how_long" value="$(arg how_long)"/>
+</launch>
